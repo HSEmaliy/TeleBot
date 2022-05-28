@@ -9,7 +9,7 @@ from tgbot.handlers.admin import register_admin
 from tgbot.middlewares.db import DbMiddleware
 
 from creat_db import BotDB
-
+#Artem
 BotDB = BotDB("bot.db")
 
 logger = logging.getLogger(__name__)
